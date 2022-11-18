@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCEntityFramework", "MVCEntityFramework\MVCEntityFramework.csproj", "{1E833917-A850-4C1D-AEEA-75E5668B426B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCEntityFrameworkDAL", "MVCEntityFrameworkDAL\MVCEntityFrameworkDAL.csproj", "{C77F7624-A0CD-43B3-B79E-1F4D3F493D52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E833917-A850-4C1D-AEEA-75E5668B426B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E833917-A850-4C1D-AEEA-75E5668B426B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E833917-A850-4C1D-AEEA-75E5668B426B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E833917-A850-4C1D-AEEA-75E5668B426B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77F7624-A0CD-43B3-B79E-1F4D3F493D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77F7624-A0CD-43B3-B79E-1F4D3F493D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77F7624-A0CD-43B3-B79E-1F4D3F493D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77F7624-A0CD-43B3-B79E-1F4D3F493D52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7A72E8E-F2D4-4261-A2D3-B3034E75D605}
+	EndGlobalSection
+EndGlobal

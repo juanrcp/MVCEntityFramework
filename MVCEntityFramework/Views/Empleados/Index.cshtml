@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Lista de Empleados con EntityFramework";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<br />
+<br />
+
+@if (Model != null)
+{
+    <!--Este value es el que recogemos en el select-->
+    <select id="selAreas">
+        <option value="0">Selecciona Empleado</option>
+        @foreach (MVCEntityFrameworkDAL.Modelo.Empleado empleado in Model)
+        {
+            <option value="@empleado.Id">@empleado.Nombre</option>
+        }
+    </select>
+
+    if (ViewBag.Area != null)
+    {
+        <label>@ViewBag.Area</label>
+    }
+}
+
