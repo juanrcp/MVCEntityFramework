@@ -18,7 +18,7 @@ namespace MVCEntityFramework.Controllers
             //Añadimos un session para que no nos falle al sesion despues de la primera consulta.
             ViewBag.Nombre = empleados;
 
-            return View(empleados);
+            return View(empleados); 
         }
     }
 }
